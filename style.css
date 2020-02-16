@@ -1,0 +1,43 @@
+body {
+    background-color: #428DDC  
+}
+
+div.main {
+    margin-top: 100px;
+    width: 88vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.block {
+    padding-top: 15px;
+}
+
+h1.title {
+    text-align : center;
+    color:  #fa7200
+}
+
+img.round {
+    border-radius: 100%;
+    width: 300px;
+    height: 300px;
+}
+
+@media (max-width: 700px) {
+    img.round {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+p {
+    text-align: center;
+    margin-top: 15px;
+}
+
+div.social a img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
